@@ -8,7 +8,27 @@ const assert = require("assert");
 //Import functions from app.js
 const { fizzBuzz, gatherNamesOf } = require("../app");
 
-describe("tests for the fizzBuzz function", () => {});
+
+
+describe("tests for the fizzBuzz function", () => {
+  it("return fizzbuzz multiple of 3 ", () => {
+    let num = 3;
+    let expectedString = "Fizz";
+    let result = fizzBuzz(num);
+    assert.strictEqual(result, expectedString);
+
+
+  })
+  it("return fizzbuzz multiple of 5", () => {
+
+  })
+  it("return fizzbuzz multiple of 3 and 5", () => {
+
+  })
+  it("return fizzbuzz number", () => {
+
+  })
+});
 
 /*
   * Step 2. Create unit tests for FizzBuzz. 
@@ -23,7 +43,7 @@ describe("tests for the fizzBuzz function", () => {});
   Don't forget to use the steps of setup, exercise and verify to guide you in writing tests. 
 */
 
-describe("tests for the gatherNamesOf function", () => {});
+describe("tests for the gatherNamesOf function", () => { });
 
 /* Step 3. Create unit tests for the gatherNamesOf function. 
 This function should take an array of objects. It should look at the array and return the key name values of each.

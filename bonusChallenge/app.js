@@ -12,7 +12,15 @@
       Ex: 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, ...
       Write the code as you complete each it test in the test/app-test.js. 
  */
-const fizzBuzz = () => {};
+const fizzBuzz = () => {
+  for (let i = 0; i <= numbers; i++) {
+
+
+
+  }
+
+
+};
 
 /*Implement the gatherNamesOf function as needed to guarantee that:
   1- the function receives an array of objects with people names as a parameter and 
@@ -21,6 +29,6 @@ const fizzBuzz = () => {};
   It should return ['John', 'Patricia'];
   Write the code as you complete each it test in the test/app-test.js. 
 */
-const gatherNamesOf = () => {};
+const gatherNamesOf = () => { };
 
 module.exports = { fizzBuzz, gatherNamesOf };

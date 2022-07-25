@@ -1,0 +1,22 @@
+{
+  "name": "js-mocha-debrief",
+  "version": "1.0.0",
+  "description": "Start with the activity folder. You will use app.js and test/app-test.js to both write a function and test it. Try to use TTD principles by writing your test before your code.  If you finish early, you may continue to try the bonus challenge activity folder, but you don't need to. The answers folder contains the completed code for both activities that you can check if you get stuck :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./bonusChallenge/test/app-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophialai123/Js-mocha-debrief.git"
+  },
+  "author": "Sophia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sophialai123/Js-mocha-debrief/issues"
+  },
+  "homepage": "https://github.com/sophialai123/Js-mocha-debrief#readme",
+  "dependencies": {
+    "mocha": "^10.0.0"
+  }
+}
